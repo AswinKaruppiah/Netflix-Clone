@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import requests from "./request";
 import "./Banner.css";
-import { Zoom } from "@mui/material";
 const base_url = "https://image.tmdb.org/t/p/original/";
 
 function Banner() {

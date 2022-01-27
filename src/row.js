@@ -3,7 +3,6 @@ import axios from "axios";
 import "./Row.css";
 import YouTube from "react-youtube";
 import movieTrailer from "movie-trailer";
-import Typography from "@mui/material/Typography";
 
 const base_url = "https://image.tmdb.org/t/p/original/";
 
@@ -38,10 +37,9 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
   return (
     <div className="row">
-      <h1 fontWeight={8} paddingTop={2} gutterBottom>
-        {title}
-      </h1>
-
+      <div className="h11">
+        <h1>{title}</h1>
+      </div>
       <div className="row_posters">
         {movies.map((movie) => (
           <img
