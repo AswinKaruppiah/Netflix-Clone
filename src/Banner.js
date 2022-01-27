@@ -19,7 +19,6 @@ function Banner() {
     }
     fetchData();
   }, []);
-  console.log(movie);
 
   return (
     <header
@@ -41,7 +40,8 @@ function Banner() {
           <button className="banner_btn">Play</button>
           <button className="banner_btn">My List</button>
         </div>
-        <h1 className="banner_discription"> {movie?.overview}</h1>
+
+        {/* <h1 className="banner_discription"> {movie?.overview}</h1> */}
       </div>
       <div className="fade_btn" />
     </header>

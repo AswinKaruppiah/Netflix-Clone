@@ -31,3 +31,9 @@
 .row_Large:hover {
   transform: scale(1.2);
 }
+.h1t {
+  font-weight: 800rem;
+  padding-top: 20rem;
+
+  color: black;
+}
