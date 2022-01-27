@@ -45,8 +45,8 @@
   transition: all 0.2s;
 }
 .fade_btn {
-  height: 17.6rem;
-  z-index: -1;
+  height: 18rem;
+  z-index: 2;
   background-image: linear-gradient(
     180deg,
     transparent,
