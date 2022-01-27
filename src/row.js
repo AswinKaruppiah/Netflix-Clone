@@ -38,7 +38,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
   return (
     <div className="row">
-      <Typography fontWeight={5} paddingTop={4} variant="h4" gutterBottom>
+      <Typography fontWeight={5} paddingTop={2} variant="h4" gutterBottom>
         {title}
       </Typography>
 
