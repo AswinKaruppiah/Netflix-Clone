@@ -38,9 +38,9 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
   return (
     <div className="row">
-      <Typography fontWeight={5} paddingTop={2} variant="h4" gutterBottom>
+      <h1 fontWeight={8} paddingTop={2} gutterBottom>
         {title}
-      </Typography>
+      </h1>
 
       <div className="row_posters">
         {movies.map((movie) => (
