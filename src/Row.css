@@ -1,13 +1,15 @@
 .row {
+  top: 0;
   margin-top: 0;
   border-top: 0;
   margin-left: 20px;
   color: white;
 }
 .h11 {
+  top: 0;
   margin-top: 0;
   border-top: 0;
-  padding: 20px;
+  padding-top: 40px;
 }
 .row_posters {
   display: flex;
