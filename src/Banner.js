@@ -29,7 +29,7 @@ function Banner() {
            )`,
 
           backgroundPosition: "center",
-          height: 550,
+          height: 350,
         }}
       >
         <div className="banner_contents">
